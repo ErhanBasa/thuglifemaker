@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Thug Life Maker @ErhanBasa</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="assets/js/konva.js"></script>
+</head>
+<body>
+    <!-- Fork Me On Github -->
+    <a class="github-ribbon" href="https://github.com/ErhanBasa/thuglifemaker"><img style="position: absolute; top: 0; right: 0; border: 0;" src="assets/img/ribbon.png" alt="Fork me on GitHub" data-canonical-src="assets/img/ribbon.png"></a>
+
+    <!-- Fixed Head -->
+    <div class="fixed-head">
+        <h1><a href="http://erhanbasa.github.io/thuglifemaker/"><img src="assets/img/logo.png"></a></h1>
+        <h2>@ErhanBasa</h2>
+        <ul>
+            <li class="facebook"><a href="https://www.facebook.com/ErhanBasa" target="_blank"><img src="assets/img/facebook-icon.png"></a></li>
+            <li class="twitter"><a href="https://twitter.com/ErhanBasa" target="_blank"><img src="assets/img/twitter-icon.png"></a></li>
+            <li class="mail"><a href="mailto:erh4n@live.com"><img src="assets/img/mail-icon.png"></a></li>
+        </ul>
+    </div>
+
+    <!-- Centerer Container -->
+    <div id="centerer">
+    
+        <!-- Left Column -->
+        <ul class="drawitems">
+          <li><button onclick="drawBandana()"><img src="assets/img/bigitems/bandana.png"></button></li>
+          <li><button onclick="drawCap()"><img src="assets/img/bigitems/cap.png"></button></li>
+          <li><button onclick="drawGlass()"><img src="assets/img/bigitems/glass.png"></button></li>
+          <li><button onclick="drawNeck()"><img src="assets/img/bigitems/neck.png"></button></li>
+          <li><button onclick="drawSmoke()"><img src="assets/img/bigitems/smoke.png"></button></li>
+          <li><button onclick="drawSmoke2()"><img src="assets/img/bigitems/smoke2.png"></button></li>
+        </ul>
+
+        <!-- Canvas Container -->
+        <div id="container"></div>
+
+        <!-- Upload Input Mask -->
+        <div id="uploadImage">
+            <label for="img-upload" class="upload-mask"></label>
+            <input id="img-upload" type="file" onchange="previewFile()"><br>
+        </div>
+        
+        <!-- Right Column -->
+        <div class="right-column">
+          <ul class="drawitems">
+              <li><button onclick="location.reload()"><img src="assets/img/new-icon.png"></button></li>
+              <li><button onclick="window.open('http://twitter.com/share?url=http://erhanbasa.github.io/thuglifemaker/&text=Thug+Life+Maker+:&via=ErhanBasa')"><img src="assets/img/twitter-icon.png"></button></li>
+              <li><button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436')"><img src="assets/img/facebook-icon.png"></button></li>
+              <li class="hidden"></li>
+              <li class="hidden"></li>
+              <li class="save"><button id="save"><img src="assets/img/save-icon.png"></button></li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- Get Javascript -->
+    <script type="text/javascript" src="assets/js/thuglifemaker.js"></script>
+
+</body>
+</html>
