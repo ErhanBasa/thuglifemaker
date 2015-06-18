@@ -1,0 +1,46 @@
+* 		{padding: 0; margin: 0;}
+
+body 				{background: #ddd; width: 100%; height: 100%;}
+
+.drawitems  				{float: left; margin-left: 0px;}
+.drawitems li  				{list-style: none; margin: 10px; cursor: pointer; width: 88px; height: 88px;}
+.drawitems li button 		{background: #fff; border:0; width: 88px; height: 88px; border-radius: 8px; cursor: pointer;}
+.drawitems li img 			{max-width: 70%;}
+.drawitems li.save button 			{background: #579c5a;}
+
+.konvajs-content  	{margin-top:10px; float: left; background: #fff; border-radius: 8px; padding: 40px;}
+.konvajs-content canvas  	{top: 40px!important; left: 40px!important;}
+
+#centerer 			{position: absolute;width: 800px;left: 50%;margin-left: -400px; height: 600px; top: 50%; margin-top: -300px;}
+
+#uploadImage  				{float: left;}
+#uploadImage #img-upload 	{display: none;}
+#uploadImage .upload-mask 	{position: absolute; width: 500px; height: 500px; background: #f5f5f5 url(../img/upload.png) no-repeat center center; display: block; left: 145px; top: 50px; cursor: pointer;}
+
+.right-column 		{float: left;}
+
+.hidden 			{opacity: 0;}
+
+.fixed-head 		{position: fixed; left: 15px; top: 10px; font-family: Arial,sans-serif; display: none;background-color: #fff;padding: 10px;border-radius: 8px;}
+.fixed-head h1 		{width: 200px;}
+.fixed-head h1 img	{max-width: 100%;}
+.fixed-head h2 		{font-size: 12px; font-weight: normal;}
+.fixed-head ul li 	{float: left; list-style: none; margin-right: 20px; margin-top: 20px;}
+.fixed-head ul li a 	{display: block;}
+.fixed-head ul li.facebook a 	{width: 15px;}
+.fixed-head ul li.twitter a 	{width: 27px; margin-top: 1px;}
+.fixed-head ul li.mail a 	{width: 25px; margin-top: -1px;}
+.fixed-head ul li a img 	{max-width: 100%;}
+
+@media screen and (min-width: 1240px){
+ 	.fixed-head 	{display: block;}
+}
+
+@media screen and (max-width: 810px){
+ 	#centerer 			{margin-left: 0; left: 0%;}
+ 	.github-ribbon 		{display: none;}
+}
+
+@media screen and (max-height: 610px){
+ 	#centerer 			{margin-top: 0; top: 0%;}
+}
