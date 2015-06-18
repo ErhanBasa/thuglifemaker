@@ -7,6 +7,7 @@ body 				{background: #ddd; width: 100%; height: 100%;}
 .drawitems li button 		{background: #fff; border:0; width: 88px; height: 88px; border-radius: 8px; cursor: pointer;}
 .drawitems li img 			{max-width: 70%;}
 .drawitems li.save button 			{background: #579c5a;}
+.drawitems li.stv-li img 	{max-width: 100%;height: 100%;}
 
 .konvajs-content  	{margin-top:10px; float: left; background: #fff; border-radius: 8px; padding: 40px;}
 .konvajs-content canvas  	{top: 40px!important; left: 40px!important;}
